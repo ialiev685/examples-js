@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container .value {
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.inner-child {
+  background-color: aqua;
+  width: 60%;
+}
+.child {
+  background-color: bisque;
+  width: 70%;
+}
+
+.parent {
+  background-color: blue;
+  width: 80%;
+}
+
+.inner-child,
+.child,
+.parent {
+  padding: 20px;
+}
+
+.js-nav {
+  display: flex;
+}
+
+.js-nav li {
+  margin: 10px;
+  list-style: none;
+}
+.js-nav a {
+  text-decoration: none;
+  color: black;
+
+  padding: 10px;
+  box-shadow: 2px 2px 5px;
+
+  border-radius: 5px;
+}
+
+.js-nav a:hover {
+  background-color: salmon;
+}
+
+.btn.active {
+  color: white;
+  background-color: teal;
+}
